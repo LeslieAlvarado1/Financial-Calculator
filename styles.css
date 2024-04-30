@@ -1,0 +1,45 @@
+nav {
+  justify-content: center;
+  display: flex;
+}
+body {
+    background-color: bisque;
+}
+main {
+    background-color: white !important;
+}
+.title {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.btn-btn-outline-primary {
+    display: block;
+    margin: 0 auto; /* Set margin to auto to center horizontally */
+    text-align: center; /* Align text center within button */
+}
+
+/* Mortgage Css */
+
+.input-container {
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 5%;
+    display: flex;
+    justify-content:flex-start ; /* Adjust alignment as needed */
+    align-items: flex-start; /* Adjust alignment as needed */
+}
+
+.form-container {
+    /* Your form container styles */
+    width: 70%; /* Adjust width as needed */
+}
+
+.result-container {
+    /* Your result container styles */
+    width: 30%; /* Adjust width as needed */
+}
