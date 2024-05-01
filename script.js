@@ -40,25 +40,3 @@ function calculateValue() {
   document.getElementById("totalInterest").innerHTML =
     "$" + totalInterest.toFixed(2);
 }
-
-/* Examples */
-
-// Function to execute Final Flash attack
-function finalFlash(characterName) {
-  console.log(characterName + " executes Final Flash!");
-}
-
-// Function to calculate total power level
-function calculateTotalPower(attackPower, defensePower) {
-  let totalPower = attackPower - defensePower;
-  return totalPower;
-}
-
-// Calling finalFlash function with a character's name
-finalFlash("Vegeta"); // Outputs: "Vegeta executes Final Flash!"
-
-// Calling calculateTotalPower function with arbitrary attack and defense powers
-let attack = 10000;
-let defense = 5000;
-let totalPower = calculateTotalPower(attack, defense);
-console.log("Total Power Level: " + totalPower); // Outputs: "Total Power Level: 5000"
