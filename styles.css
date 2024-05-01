@@ -2,44 +2,55 @@ nav {
   justify-content: center;
   display: flex;
 }
-body {
-    background-color: bisque;
-}
-main {
-    background-color: white !important;
-}
+
 .title {
-    text-align: center;
-    margin-top: 3%;
+  text-align: center;
+  margin-top: 3%;
 }
 
-.btn-btn-outline-primary {
-    display: block;
-    margin: 0 auto; /* Set margin to auto to center horizontally */
-    text-align: center; /* Align text center within button */
+.main-para {
+  margin: 5%;
+  text-align: center;
+}
+.main-para p {
+  margin-bottom: 50px; /* Add space between paragraphs */
 }
 
 /* Mortgage Css */
 
-.input-container {
-    margin-top: 7%;
-    display: flex;
-    justify-content: center;
-}
-
 .container {
-    margin-top: 5%;
-    display: flex;
-    justify-content:flex-start ; /* Adjust alignment as needed */
-    align-items: flex-start; /* Adjust alignment as needed */
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between; /* Adjust alignment as needed */
+  align-items: flex-start; /* Adjust alignment as needed */
+  background-color: rgb(227, 227, 227);
+  padding: 2%;
+  border: 3px solid #ccc; /* Add border with color #ccc */
 }
 
 .form-container {
-    /* Your form container styles */
-    width: 70%; /* Adjust width as needed */
+  width: 60%; /* Adjust width as needed */
+  display: flex;
+  flex-direction: column; /* Display inputs in columns */
 }
 
+.input-container {
+  margin-bottom: 15%; /* Add space between input groups */
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.input-container label,
+.input-container input {
+  margin-bottom: 2%; /* Add space between each label and input */
+}
 .result-container {
-    /* Your result container styles */
-    width: 30%; /* Adjust width as needed */
+  width: 30%; /* Adjust width as needed */
+}
+
+#result {
+  font-size: 24px; /* Adjust font size as needed */
+  font-style: italic;
+  font-weight: bolder;
 }
