@@ -35,24 +35,24 @@
         <h1 class="title">
             Mortgage Calculator
         </h1>
-        <section class="container">
-            <section class="form-container">
+        <div class="container">
+            <div class="form-container">
                 <div class="input-container">
-                    <label for="loanAmount">Loan Amount</label>
+                    <label for="loanAmount">Loan Amount ($)</label>
                     <input type="number" id="loanAmount">
-                    <label for="annualRate">Annual Interest Rate</label>
+                    <label for="annualRate">Annual Interest Rate (%)</label>
                     <input type="number" id="annualRate">
                     <label for="loanLength">Loan Terms In Year</label>
                     <input type="number" id="loanLength">
                 </div>
 
                 <button type="button" class="btn btn-outline-primary" onclick="calculateMortgage()">Calculate</button>
-            </section>
-            <section class="result-container">
+            </div>
+            <div class="result-container">
                 <p><strong>Monthly Payment:</strong></p>
                 <p id="result"><em>$</em></p>
-            </section>
-        </section>
+            </div>
+        </div>
     </main>
     <footer>
 

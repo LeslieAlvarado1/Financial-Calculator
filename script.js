@@ -7,7 +7,9 @@ function calculateMortgage() {
   let years = Number(document.getElementById("loanLength").value);
 
   let L_months = years * 12; // Convert loan length from years to months
-  let i_monthly = annualRate / 12 / 100; // Convert annual interest rate to a monthly rate and percentage
+  //Convert annual interest rate to a monthly rate and from a percentage to a decimal.
+  //It converts rate to a monthly interest rate by dividing it by 12 (the number of months in a year).
+  let i_monthly = annualRate / 12 / 100;
 
   // Calculate monthly payment
   let monthlyPayment =
