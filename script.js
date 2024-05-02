@@ -1,5 +1,13 @@
 "use strict";
 
+
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("depositAmount").focus();
+});
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("loanAmount").focus();
+});
+
 function calculateMortgage() {
   // Get input values
   let principal = Number(document.getElementById("loanAmount").value);
